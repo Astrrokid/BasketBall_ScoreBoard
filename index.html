@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+    <div class="wrapper">
     <div class="container">
         <div class="home">
-            <h3>HOME</h3>
+            <h1>HOME</h1>
             <p id="hs">0</p>
             <div class="homescore">
                 <button id="one" class="plusOne" onclick="addOneHome()">+1</button>
@@ -18,7 +20,7 @@
             </div>
         </div>
         <div class="guest">
-            <h3>GUEST</h3>
+            <h1>GUEST</h1>
             <p id="gs">0</p>
             <div class="homescore">
                 <button id="one" class="plusOne" onclick="addOneGuest()">+1</button>
@@ -28,6 +30,7 @@
         </div>
     </div>
     <button class="reset" onclick="reset()">RESET</button>
+    </div>
 </body>
 <script src="index.js"></script>
 </html>

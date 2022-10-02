@@ -9,6 +9,8 @@ function reset(){
     gScore=0
     homeScore.textContent=hScore
     guestScore.textContent=gScore
+    guestScore.style.color="black"
+    homeScore.style.color="black"
 }
 function addOneHome(){addh("addOne")}
 function addTwoHome(){addh("addTwo")}

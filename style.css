@@ -1,0 +1,47 @@
+@font-face {
+    font-family: segment;
+    src: url(sevensegment.ttf);
+}
+
+body{
+    margin: 0;
+    text-align: center;
+}
+.wrapper{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.575);
+    width: 700px;
+    margin: 100px auto;
+    height: 500px;
+    border-radius: 40px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    justify-content: space-evenly;
+}
+
+.home{
+    background-image: linear-gradient(45deg, red, purple);
+    width: 40%;
+    border-radius: 20px;
+    padding: 20px;
+}
+.guest{
+    background-image: linear-gradient(45deg, red, purple);
+    width: 40%;
+    border-radius: 20px;
+    padding: 20px;
+}
+p{
+    text-shadow: 0 0 3px black;
+    font-size: 40px;
+    font-family: segment;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(170, 155, 155);
+    color: white;
+}
