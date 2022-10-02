@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <h3>HOME</h3>
+            <p id="hs">0</p>
+            <div class="homescore">
+                <button id="one" class="plusOne" onclick="addOneHome()">+1</button>
+                <button id="two" class="plusTwo" onclick="addTwoHome()">+2</button>
+                <button id="three" class="plusThree" onclick="addThreeHome()">+3</button>
+            </div>
+        </div>
+        <div class="guest">
+            <h3>GUEST</h3>
+            <p id="gs">0</p>
+            <div class="homescore">
+                <button id="one" class="plusOne" onclick="addOneGuest()">+1</button>
+                <button id="two" class="plusTwo" onclick="addTwoGuest()">+2</button>
+                <button id="three" class="plusThree" onclick="addThreeGuest()">+3</button>
+            </div>
+        </div>
+    </div>
+    <button class="reset" onclick="reset()">RESET</button>
+</body>
+<script src="index.js"></script>
+</html>
